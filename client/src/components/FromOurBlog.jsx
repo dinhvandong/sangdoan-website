@@ -6,9 +6,9 @@ import { CgAdidas } from "react-icons/cg";
 
 const FromOurBlog = () => {
   return (
-    <div className="flex flex-col justify-center items-center">
-      <div className="text-indigo-800 font-bold mt-20">FROM OUR BLOG</div>
-      <div className="text-5xl mt-5">Here’s What’s Happening</div>
+    <div className="flex flex-col items-center justify-center">
+      <div className="mt-20 font-bold text-indigo-800">FROM OUR BLOG</div>
+      <div className="mt-5 text-5xl">Here’s What’s Happening</div>
       <div className="flex flex-row">
         <div className="flex flex-col w-[400px] h-full justify-center items-center bg-white shadow-md mt-10 mb-20 rounded-lg">
           <div>
@@ -18,29 +18,29 @@ const FromOurBlog = () => {
               className="w-full h-full rounded-t-lg"
             />
           </div>
-          <div className="flex flex-row absolute mt-20">
-            <div className=" bg-indigo-800 text-white rounded-lg text-xs">
+          <div className="absolute flex flex-row mt-20">
+            <div className="text-xs text-white bg-indigo-800 rounded-lg ">
               <p className="m-3">CONSULTANCY</p>
             </div>
-            <div className=" bg-indigo-800 text-white rounded-lg text-xs ml-2 mr-28">
+            <div className="ml-2 text-xs text-white bg-indigo-800 rounded-lg mr-28">
               <p className="m-3">UNCATEGORIZED</p>
             </div>
           </div>
-          <div className="flex flex-row justify-start items-center mt-10 text-start mr-28">
+          <div className="flex flex-row items-center justify-start mt-10 text-start mr-28">
             <div className="">
               <CiCalendar />
             </div>
-            <div className="text-sm text-gray-500 ml-2">FEBRUARY 1, 2021</div>
+            <div className="ml-2 text-sm text-gray-500">FEBRUARY 1, 2021</div>
             <div className="ml-2">
               <CiUser />
             </div>
-            <div className="text-sm text-gray-500 ml-1">By</div>
-            <div className="font-bold text-sm text-indigo-800 ml-2">ADMIN</div>
+            <div className="ml-1 text-sm text-gray-500">By</div>
+            <div className="ml-2 text-sm font-bold text-indigo-800">ADMIN</div>
           </div>
           <div className="text-xl mt-3 text-start text-wrap w-[300px] mr-10">
             The Next Big Challenge for Content Marketer
           </div>
-          <div className="flex justify-start items-start mb-5">
+          <div className="flex items-start justify-start mb-5">
             <button className=" flex flex-row h-[50px] text-indigo-800 text-xs font-bold rounded-lg mr-60">
               <div className="m-4">GET STARTED</div>
               <div className="mt-[18px] mr-3">
@@ -57,29 +57,29 @@ const FromOurBlog = () => {
               className="w-full h-full rounded-t-lg"
             />
           </div>
-          <div className="flex flex-row absolute mt-20">
-            <div className=" bg-indigo-800 text-white rounded-lg text-xs">
+          <div className="absolute flex flex-row mt-20">
+            <div className="text-xs text-white bg-indigo-800 rounded-lg ">
               <p className="m-3">CONSULTANCY</p>
             </div>
-            <div className=" bg-indigo-800 text-white rounded-lg text-xs ml-2 mr-28">
+            <div className="ml-2 text-xs text-white bg-indigo-800 rounded-lg mr-28">
               <p className="m-3">UNCATEGORIZED</p>
             </div>
           </div>
-          <div className="flex flex-row justify-start items-center mt-10 text-start mr-28">
+          <div className="flex flex-row items-center justify-start mt-10 text-start mr-28">
             <div className="">
               <CiCalendar />
             </div>
-            <div className="text-sm text-gray-500 ml-2">FEBRUARY 1, 2021</div>
+            <div className="ml-2 text-sm text-gray-500">FEBRUARY 1, 2021</div>
             <div className="ml-2">
               <CiUser />
             </div>
-            <div className="text-sm text-gray-500 ml-1">By</div>
-            <div className="font-bold text-sm text-indigo-800 ml-2">ADMIN</div>
+            <div className="ml-1 text-sm text-gray-500">By</div>
+            <div className="ml-2 text-sm font-bold text-indigo-800">ADMIN</div>
           </div>
           <div className="text-xl mt-3 text-start text-wrap w-[300px] mr-10">
             The Next Big Challenge for Content Marketer
           </div>
-          <div className="flex justify-start items-start mb-5">
+          <div className="flex items-start justify-start mb-5">
             <button className=" flex flex-row h-[50px] text-indigo-800 text-xs font-bold rounded-lg mr-60">
               <div className="m-4">GET STARTED</div>
               <div className="mt-[18px] mr-3">
@@ -96,29 +96,29 @@ const FromOurBlog = () => {
               className="w-full h-full rounded-t-lg"
             />
           </div>
-          <div className="flex flex-row absolute mt-20">
-            <div className=" bg-indigo-800 text-white rounded-lg text-xs">
+          <div className="absolute flex flex-row mt-20">
+            <div className="text-xs text-white bg-indigo-800 rounded-lg ">
               <p className="m-3">CONSULTANCY</p>
             </div>
-            <div className=" bg-indigo-800 text-white rounded-lg text-xs ml-2 mr-28">
+            <div className="ml-2 text-xs text-white bg-indigo-800 rounded-lg mr-28">
               <p className="m-3">UNCATEGORIZED</p>
             </div>
           </div>
-          <div className="flex flex-row justify-start items-center mt-10 text-start mr-28">
+          <div className="flex flex-row items-center justify-start mt-10 text-start mr-28">
             <div className="">
               <CiCalendar />
             </div>
-            <div className="text-sm text-gray-500 ml-2">FEBRUARY 1, 2021</div>
+            <div className="ml-2 text-sm text-gray-500">FEBRUARY 1, 2021</div>
             <div className="ml-2">
               <CiUser />
             </div>
-            <div className="text-sm text-gray-500 ml-1">By</div>
-            <div className="font-bold text-sm text-indigo-800 ml-2">ADMIN</div>
+            <div className="ml-1 text-sm text-gray-500">By</div>
+            <div className="ml-2 text-sm font-bold text-indigo-800">ADMIN</div>
           </div>
           <div className="text-xl mt-3 text-start text-wrap w-[300px] mr-10">
             The Next Big Challenge for Content Marketer
           </div>
-          <div className="flex justify-start items-start mb-5">
+          <div className="flex items-start justify-start mb-5">
             <button className=" flex flex-row h-[50px] text-indigo-800 text-xs font-bold rounded-lg mr-60">
               <div className="m-4">GET STARTED</div>
               <div className="mt-[18px] mr-3">
@@ -128,46 +128,46 @@ const FromOurBlog = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-row justify-center items-center text-gray-500 mb-20">
-        <div className="flex flex-row justify-center items-center">
+      <div className="flex flex-row items-center justify-center mb-20 text-gray-500">
+        <div className="flex flex-row items-center justify-center">
           <div className="text-5xl">
-            <CgAdidas />
+          <img src="https://cdn.pixabay.com/photo/2013/02/12/09/07/microsoft-80660_640.png" className="w-[50px] h-[50px]"/>
           </div>
-          <div className="text-3xl ml-2">Adidas</div>
+          <div className="ml-2 text-3xl">Microsoft</div>
         </div>
-        <div className="flex flex-row justify-center items-center ml-20">
+        <div className="flex flex-row items-center justify-center ml-20">
           <div className="text-5xl">
-            <CgAdidas />
+            <img src="https://cdn.pixabay.com/photo/2013/02/12/09/07/microsoft-80660_640.png" className="w-[50px] h-[50px]"/>
           </div>
-          <div className="text-3xl ml-2">Adidas</div>
+          <div className="ml-2 text-3xl">Microsoft</div>
         </div>
-        <div className="flex flex-row justify-center items-center ml-20">
+        <div className="flex flex-row items-center justify-center ml-20">
           <div className="text-5xl">
-            <CgAdidas />
+          <img src="https://cdn.pixabay.com/photo/2013/02/12/09/07/microsoft-80660_640.png" className="w-[50px] h-[50px]"/>
           </div>
-          <div className="text-3xl ml-2">Adidas</div>
+          <div className="ml-2 text-3xl">Microsoft</div>
         </div>
-        <div className="flex flex-row justify-center items-center ml-20">
+        <div className="flex flex-row items-center justify-center ml-20">
           <div className="text-5xl">
-            <CgAdidas />
+          <img src="https://cdn.pixabay.com/photo/2013/02/12/09/07/microsoft-80660_640.png" className="w-[50px] h-[50px]"/>
           </div>
-          <div className="text-3xl ml-2">Adidas</div>
+          <div className="ml-2 text-3xl">Microsoft</div>
         </div>
-        <div className="flex flex-row justify-center items-center ml-20">
+        <div className="flex flex-row items-center justify-center ml-20">
           <div className="text-5xl">
-            <CgAdidas />
+          <img src="https://cdn.pixabay.com/photo/2013/02/12/09/07/microsoft-80660_640.png" className="w-[50px] h-[50px]"/>
           </div>
-          <div className="text-3xl ml-2">Adidas</div>
+          <div className="ml-2 text-3xl">Microsoft</div>
         </div>
-        <div className="flex flex-row justify-center items-center ml-20">
+        <div className="flex flex-row items-center justify-center ml-20">
           <div className="text-5xl">
-            <CgAdidas />
+          <img src="https://cdn.pixabay.com/photo/2013/02/12/09/07/microsoft-80660_640.png" className="w-[50px] h-[50px]"/>
           </div>
-          <div className="text-3xl ml-2">Adidas</div>
+          <div className="ml-2 text-3xl">Microsoft</div>
         </div>
       </div>
-      <div className="text-indigo-800 font-bold">CONTRACT US</div>
-      <div className="text-5xl mt-5 mb-40">We Alway Here To Helps You</div>
+      <div className="font-bold text-indigo-800">CONTRACT US</div>
+      <div className="mt-5 mb-40 text-5xl">We Alway Here To Helps You</div>
     </div>
   );
 };
