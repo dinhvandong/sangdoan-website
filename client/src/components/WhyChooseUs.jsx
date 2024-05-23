@@ -7,16 +7,18 @@ import { FaHandsHelping } from "react-icons/fa";
 const WhyChooseUs = () => {
   return (
     <div
-      className="flex flex-col items-center justify-center w-full h-full"
+      className="flex flex-col items-center justify-center lg:w-full md:w-full sm:w-auto xs:w-[320px] h-full"
       style={{
         backgroundImage: `url('https://wallpaperswide.com/download/space_colors_blue_purple_stars-wallpaper-1920x1080.jpg')`,
       }}
     >
-      <div className="mt-20 font-bold text-pink-600">TẠI SAO NÊN LỰA CHỌN CHÚNG TÔI</div>
-      <div className="text-white text-4xl text-wrap w-[600px] flex justify-center items-center text-center mt-10 mb-20">
+      <div className="mt-20 font-bold text-pink-600">
+        TẠI SAO NÊN LỰA CHỌN CHÚNG TÔI
+      </div>
+      <div className="text-white lg:text-4xl md:text-4xl sm:text-2xl xs:text-2xl text-wrap lg:w-[600px] md:w-[600px] sm:w-[320px] xs:w-[300px] flex justify-center items-center text-center mt-10 mb-20">
         Chúng tôi luôn cung cấp cho khách hàng những dịch vụ tốt nhất hiện nay.
       </div>
-      <div className="flex flex-row mt-10 mb-40">
+      <div className="flex lg:flex-row md:flex-row sm:flex-col xs:flex-col mt-10 mb-40">
         <div className="relative w-full h-64 ">
           <div className="relative z-10 flex items-center justify-center">
             <div className="absolute w-[81px] h-[140px] bg-pink-400 transform "></div>
@@ -35,7 +37,7 @@ const WhyChooseUs = () => {
             </div>
           </div>
         </div>
-        <div className="relative w-full h-64 ml-10">
+        <div className="relative w-full h-64 lg:ml-10 md;ml-10 sm:ml-0">
           <div className="relative z-10 flex items-center justify-center">
             <div className="absolute w-[81px] h-[140px] bg-pink-400 transform "></div>
             <div className="absolute w-[81px] h-[140px] bg-pink-400 transform rotate-[60deg]"></div>
@@ -53,7 +55,7 @@ const WhyChooseUs = () => {
             </div>
           </div>
         </div>
-        <div className="relative w-full h-64 ml-10">
+        <div className="relative w-full h-64 lg:ml-10 md;ml-10 sm:ml-0">
           <div className="relative z-10 flex items-center justify-center">
             <div className="absolute w-[81px] h-[140px] bg-pink-400 transform "></div>
             <div className="absolute w-[81px] h-[140px] bg-pink-400 transform rotate-[60deg]"></div>
@@ -71,7 +73,7 @@ const WhyChooseUs = () => {
             </div>
           </div>
         </div>
-        <div className="relative w-full h-64 ml-10">
+        <div className="relative w-full h-64 lg:ml-10 md;ml-10 sm:ml-0">
           <div className="relative z-10 flex items-center justify-center">
             <div className="absolute w-[81px] h-[140px] bg-pink-400 transform "></div>
             <div className="absolute w-[81px] h-[140px] bg-pink-400 transform rotate-[60deg]"></div>
@@ -82,7 +84,9 @@ const WhyChooseUs = () => {
           </div>
           <div className=" h-[230px] w-[250px] bg-gray-500 backdrop-blur-lg bg-opacity-50 border-[1px] border-gray-400 rounded-lg">
             <div className="relative text-center text-white">
-              <div className="mt-20 text-lg">Dịch vụ quảng cáo truyền thông</div>
+              <div className="mt-20 text-lg">
+                Dịch vụ quảng cáo truyền thông
+              </div>
               <div className="mt-5 ml-3 mr-3 text-sm text-gray-300">
                 Cung cấp các dịch vụ về công nghệ và truyền thông.
               </div>

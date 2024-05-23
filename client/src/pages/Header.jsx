@@ -12,7 +12,7 @@ import FromOurBlog from "../components/FromOurBlog";
 
 const Header = () => {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col lg:w-full md:w-full sm:w-auto xs:w-[320px]">
       <TopBar />
       <MenuBar />
       <Banner />
@@ -21,7 +21,7 @@ const Header = () => {
       <WhyChooseUs />
       <MakeWeConnect/>
       <Experience/>
-      <TechnologyIndex/>
+      {/* <TechnologyIndex/> */}
       <FromOurBlog/>
     </div>
   );
